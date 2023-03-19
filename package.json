@@ -4,7 +4,6 @@
     "dev": "next dev",
     "build": "next build",
     "export": "next export",
-    "export:gh-pages": "next build && next export && touch out/.nojekyll && touch out/CNAME && echo \"fatihtelis.com\" >> out/CNAME",
     "start": "next start"
   },
   "dependencies": {
